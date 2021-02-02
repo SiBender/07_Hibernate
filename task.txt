@@ -1,0 +1,5 @@
+Hibernate
+Rewrite the DAO layer. Use Hibernate instead of Spring JDBC.
+
+The Hibernate should be used as a provider that implements JPA specification, 
+the Service layer should use and depend on the JPA interfaces, not the Hibernate ones.
